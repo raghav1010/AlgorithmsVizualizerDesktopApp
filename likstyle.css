@@ -1,0 +1,108 @@
+body{
+margin: 0;
+height: 100%;
+color: #4A6572;
+font-weight: 700;
+background: #d4d4dc;
+font-family: 'Patrick Hand', cursive;
+letter-spacing: 4px;
+}
+.get-started .submit{
+  background-color: #031321; /*#4CAF50;*/
+  border: 2px solid #031321;
+  border-radius: 15px;
+  /*color: #4A6572;*/
+  padding: 5px 20px;
+  text-align: center;
+  margin: 10px 30px 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition: .6s;
+  font-family: monospace;
+  position: relative;
+  left:5%;
+text-transform: uppercase;
+  letter-spacing: 4px;
+	font-family: monospace;
+	transition: 0.6s;
+  color: cyan;
+}
+.get-started .submit:hover
+{
+  background: black;
+	color: #255784;
+  box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+input[type="text"] {
+    background: yellow;
+border: 2px solid black;
+font-family:monospace;
+transition: .6s;
+    height: 50px;
+    max-width: 100px;
+    border: none;
+    border-radius: 24px;
+    padding: 0px 15px;
+}
+input[type="text"]:focus {
+    border-left: 40px solid orange;
+    outline-offset: transparent;
+    border-radius: 30px;
+}
+.backbut
+{
+  position: absolute;
+  left:95%;
+  border-radius: 50%;
+  background:#39ff14;
+  color:black;
+  font-family: inherit;
+  font-size: 14px;
+  text-spacing:4px;
+  font-weight: 400;
+  top:10px;
+}
+.backbut:hover{
+  color: #39ff14;
+  background: black;
+}
+.con{
+
+  position: relative;
+  left:5%;
+  top:180px;
+
+}
+h1{
+  position: relative;
+  left:10%;
+}
+.outputs{
+  position: relative;
+  left: 5%;
+  top: 190px;
+}
+.o1,.o2,.o3,.o4,.o5,.del{
+  background: black;
+  border-radius: 50%;
+border: none;
+  font-size: 48px;
+  display:inline-block;
+margin: 10px 10px;
+font-family: monospace;
+height: 100px;
+width: 100px;
+color: #39ff14;
+}
+.pop{
+  position: relative;
+  left: 70%;
+  top: 40px
+}
+.pops
+{
+  position:relative;
+  left:70%;
+  top:60px;
+  }
